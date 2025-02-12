@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/text/",
   title: "the thing",
   description: "一个代替臃肿的美篇的东西",
   themeConfig: {
